@@ -1,0 +1,108 @@
+body {
+    background: radial-gradient(780px at 37.8% 100.3%, rgb(19, 55, 115) 2.2%, rgb(7, 9, 80) 20.2%, rgb(27, 88, 111) 58.6%, rgb(44, 93, 115) 75%, rgb(31, 19, 99) 89.6%, rgb(12, 51, 76) 96.1%);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+div {
+    /* border: 1px solid black; */
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    margin: 10px;
+    font-family: chiller;
+    /* position: sticky; */
+    top: 10px;
+}
+
+.navbar div a:hover {
+    color: red;
+}
+.home-left .kontak a {
+    color: white;
+    text-decoration: none;
+}
+.home-left .kontak a:hover{
+    color: red;
+    text-decoration: none;
+}
+
+.navbar div a {
+    color: white
+}
+
+.nav {
+    width: 20%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.home {
+    display: flex;
+
+}
+
+#home div {
+    width: 60%;
+}
+
+.home-left {
+    padding: 40px;
+    font-family: chiller;
+    font-size: 55px;
+    color: aliceblue;
+}
+
+.home-right {}
+
+.kontak {
+    font-family: chiller;
+    font-size: 30px;
+}
+
+.about {
+    border: 1px solid white;
+    color: white;
+    margin: 0px 70px;
+}
+
+.about-text {
+    font-family: 'chiller';
+    font-size: 100px;
+    margin: 0px;
+    margin-left: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.skill{
+    border: 1px solid white;
+    color: white;
+    margin: 0px 70px;
+}
+.skill-text{
+    font-family: 'chiller';
+    font-size: 100px;
+    margin: 0px;
+    margin-left: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.contact{
+    border: 1px solid white;
+    color: white;
+    margin: 0px 70px;
+}
+.contact-text{
+    font-family: 'chiller';
+    font-size: 100px;
+    margin: 0px;
+    margin-left: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
